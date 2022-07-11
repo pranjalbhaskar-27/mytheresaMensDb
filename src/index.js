@@ -3,6 +3,7 @@ const cors = require('cors');
 app.use(cors({
     origin: '*'
 }));
+
 const express = require('express');
 const app = express();
 
