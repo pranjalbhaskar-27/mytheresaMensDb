@@ -1,11 +1,13 @@
 const cors = require('cors');
 
-app.use(cors({
-    origin: '*'
-}));
+
 
 const express = require('express');
 const app = express();
+
+app.use(cors({
+    origin: '*'
+}));
 
 app.use(express.json());
 
